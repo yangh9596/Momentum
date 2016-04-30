@@ -6,3 +6,4 @@ dat <- read.csv("prices.csv",
                 sep = ",",
                 header = TRUE,
                 stringsAsFactors = FALSE)
+dat <- dat[,-1]
